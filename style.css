@@ -1,11 +1,150 @@
 
+h1{
+  color: black;
+  font-size: 70px;
+  font-family: 'Caveat',cursive;
+}
+
+h3{
+  color: black;
+  font-size: 40px;
+  font-family: 'Caveat',cursive;
+}
+
+#about-paragraph{
+  color: black;
+  font-size: 30px;
+  font-family: 'Caveat',cursive;
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  background-color: #FFF2F7;
+  border: solid 3px;
+  border-image: linear-gradient(to right, #FF0000, #FF00B4, #0064C8) 1;
+margin-left: 50px;
+margin-right: 50px;
+}
+#contacts-text{
+  font-size: 50px;
+  font-family: 'Caveat',cursive;
+text-align: center;
+}
+.c-text1{
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+  font-family: 'Caveat',cursive;
+  text-align: center;
+  color: black;
+}
+.c-text2{
+  font-size: 30px;
+  font-family: 'Caveat',cursive;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+}
+
+#last-div{
+  background-color: #FFCAD5;
+}
+
+
+#home-paragraph2{
+  font-size: 30px;
+  font-family: 'Caveat',cursive;
+  color: black;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+}
+
+#insta{
+  position: relative;
+  left: 600px;
+  bottom: 50px;
+}
+#face{
+  position: relative;
+  left: 560px;
+  bottom: 60px;
+}
+#call-me{
+  border-radius: 50%;
+}
+.footer-two-column {
+  position: fixed;
+ padding: 10px 10px 0px 10px;
+ bottom: 0;
+ width: 100%;
+ height: 40px;
+ display: grid;
+ grid-template-columns: 15% 85%;
+ background-color: #FFCAD5;
+        }
+
+.fa{
+  padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+  color: #40E0D0;
+}
+.fa-instagram{
+  color: black;
+  position: relative;
+  right: 10px;
+}
+
+.fa-facebook{
+  color: black;
+  position: relative;
+  right: 110px;
+}
+
+.picture-of-me{
+  width: 450px;
+  margin-top:20px;
+}
+.picture-of-me2{
+  width: 600px;
+  position: relative;
+  right: 30px;
+  bottom: 20px;
+}
+.footer-text{
+  font-size: 20px;
+  font-family: 'Caveat',cursive;
+  text-align: left;
+  position: relative;
+  bottom: 18px;
+}
+
+
+.two-column1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+  background-color: #FFF2F7;
+}
+.two-column2 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 40px;
+  background-color: #FFF2F7;
+}
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFFFF;
+  background-color: #FFCAD5;
 }
 nav li {
   float: right;
@@ -15,8 +154,8 @@ nav li a {
   background:
     linear-gradient(
       to right,
-      rgba(100, 200, 200, 1),
-      rgba(100, 200, 200, 1)
+      #40E0D0,
+      #40E0D0
     ),
     linear-gradient(
       to right,
@@ -27,7 +166,7 @@ nav li a {
   text-decoration: none;
   color: black;
   font-size: 30px;
-  font-family: 'Caveat';
+  font-family: 'Caveat',cursive;
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -35,6 +174,86 @@ nav li a {
 
 }
 nav li a:hover {
-  background-size: 0 3px, 100% 3px;
+  background-size: 0 3px, 100% 3px;}
 
-  
+  .container {
+  position: relative;
+  bottom: 30px;
+  left: 350px;
+}
+body{
+
+  background-color: #FFF2F7;
+}
+.button2 {
+  background-color: #FFF2F7;
+  border: solid 4px #40E0D0;
+  border-radius: 50px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  font-family: 'Caveat',cursive;
+  position: relative;
+  left: 220px;
+  bottom: 60px;
+}
+
+.button1 {
+  background-color: #FFCAD5;
+  border: solid 4px #40E0D0;);
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Caveat',cursive;
+  position: relative;
+  left: 320px;
+  bottom: 15px;
+}
+
+.button2:hover{
+  opacity: 0.5;
+}
+.button1:hover{
+  border-image:linear-gradient(to right, #FF0000, #FF00B4, #0064C8) 1;
+}
+
+#home-paragraph{
+  font-size: 70px;
+  font-family: 'Caveat',cursive;
+  color: #40E0D0;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+  margin-top: 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.par-photo{
+font-family: 'Caveat',cursive;
+font-size: 30px;
+text-align: center;
+padding-top:5px;
+
+}
